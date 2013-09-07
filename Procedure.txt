@@ -1,0 +1,2 @@
+Before you change any code, syn firstly
+After you change the code and commit the change, click syn again
