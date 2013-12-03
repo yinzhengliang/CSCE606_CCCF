@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Demo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Demo.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\cx\Desktop\V8\Demo\Demo.rc"" 
+Creating temporary file "C:\Users\cx\AppData\Local\Temp\RSP4B13.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/Demo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\cx\Desktop\V8\Demo\Demo.cpp"
+"C:\Users\cx\Desktop\V8\Demo\DemoDoc.cpp"
+"C:\Users\cx\Desktop\V8\Demo\DemoView.cpp"
+"C:\Users\cx\Desktop\V8\Demo\DlgFeatMatch.cpp"
+"C:\Users\cx\Desktop\V8\Demo\DlgRotate.cpp"
+"C:\Users\cx\Desktop\V8\Demo\DlgThreshold.cpp"
+"C:\Users\cx\Desktop\V8\Demo\DlgTranslate.cpp"
+"C:\Users\cx\Desktop\V8\Demo\MainFrm.cpp"
+"C:\Users\cx\Desktop\V8\mvImgProc\StructureAnalysis.cpp"
+"C:\Users\cx\Desktop\V8\mvImgProc\threshold.cpp"
+]
+Creating command line "cl.exe @C:\Users\cx\AppData\Local\Temp\RSP4B13.tmp" 
+Creating temporary file "C:\Users\cx\AppData\Local\Temp\RSP4B24.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/Demo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\cx\Desktop\V8\Demo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\cx\AppData\Local\Temp\RSP4B24.tmp" 
+Creating temporary file "C:\Users\cx\AppData\Local\Temp\RSP4B25.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Demo.pdb" /machine:I386 /out:"Release/Demo.exe" 
+.\Release\Demo.obj
+.\Release\DemoDoc.obj
+.\Release\DemoView.obj
+.\Release\DlgFeatMatch.obj
+.\Release\DlgRotate.obj
+.\Release\DlgThreshold.obj
+.\Release\DlgTranslate.obj
+.\Release\MainFrm.obj
+.\Release\StdAfx.obj
+.\Release\StructureAnalysis.obj
+.\Release\threshold.obj
+.\Release\Demo.res
+]
+Creating command line "link.exe @C:\Users\cx\AppData\Local\Temp\RSP4B25.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Demo.cpp
+DemoDoc.cpp
+DemoView.cpp
+DlgFeatMatch.cpp
+DlgRotate.cpp
+DlgThreshold.cpp
+DlgTranslate.cpp
+MainFrm.cpp
+StructureAnalysis.cpp
+threshold.cpp
+Generating Code...
+Linking...
+   Creating library Release/Demo.lib and object Release/Demo.exp
+Creating temporary file "C:\Users\cx\AppData\Local\Temp\RSP53AE.tmp" with contents
+[
+/nologo /o"Release/Demo.bsc" 
+.\Release\StdAfx.sbr
+.\Release\Demo.sbr
+.\Release\DemoDoc.sbr
+.\Release\DemoView.sbr
+.\Release\DlgFeatMatch.sbr
+.\Release\DlgRotate.sbr
+.\Release\DlgThreshold.sbr
+.\Release\DlgTranslate.sbr
+.\Release\MainFrm.sbr
+.\Release\StructureAnalysis.sbr
+.\Release\threshold.sbr]
+Creating command line "bscmake.exe @C:\Users\cx\AppData\Local\Temp\RSP53AE.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Demo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
